@@ -1,0 +1,44 @@
+body {
+  font-family: "Source Code Pro", monospace;
+  color: black;
+}
+.btn {
+  border-color: black;
+  color: black;
+}
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+.form-control:hover {
+    border-color: black;
+}
+.navbar {
+    font-size: 24px;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.need {
+  padding-top: 300px;
+  padding-bottom: 300px;
+  background-image: url(https://www.codelivly.com/wp-content/uploads/2022/10/programming-works.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.need__text {
+  color: black;
+  display: inline;
+  text-decoration: underline;
+  text-shadow: 0px 0px 20px #A6A6A6;
+  background-color: white;
+  border
+}
+.need__background {
+  display: flex;
+  justify-content: center;
+}
