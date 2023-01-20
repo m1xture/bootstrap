@@ -2,6 +2,9 @@ body {
   font-family: "Source Code Pro", monospace;
   color: black;
 }
+ul {
+  list-style: none;
+}
 .btn {
   border-color: black;
   color: black;
@@ -41,4 +44,13 @@ h1 {
 .need__background {
   display: flex;
   justify-content: center;
+}
+.vacations {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.vacations__list {
+  display: flex;
+  justify-content: space-evenly;
 }
