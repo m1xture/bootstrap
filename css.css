@@ -27,7 +27,7 @@ h1 {
 .need {
   padding-top: 300px;
   padding-bottom: 300px;
-  background-image: url(https://www.codelivly.com/wp-content/uploads/2022/10/programming-works.jpg);
+  background-image: url(https://images.wallpaperscraft.ru/image/single/noutbuk_klavishi_kod_211625_2560x1080.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -47,10 +47,37 @@ h1 {
 }
 .vacations {
   padding-top: 30px;
+  padding-bottom: 30px;
   display: flex;
   justify-content: center;
+}
+.vacations__title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
 }
 .vacations__list {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.benefits {
+  background-color: rgb(225, 225, 225);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.benefits__title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.benefits-block {
+  display: flex;
+  justify-content: space-between;
+}
+.benefits__subblock {
+  max-width: 450px;
+}
+.w-100 {
+  max-width: 600px;
 }
